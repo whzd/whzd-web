@@ -1,8 +1,8 @@
 import Link from "next/link"
 
-export function NavItem(props: {path: string, displayText: string}){
+export function NavItem(props: {path: string, displayText: string, className?: string}){
   return (
-        <Link href={props.path} className="flex items-center justify-center h-16">
+        <Link href={props.path} className={props.className}>
           <p>{props.displayText}</p>
         </Link>
   )

@@ -1,9 +1,6 @@
-import NavBar from "../../components/navbar"
-
 export default function About(){
   return (
     <div>
-      <NavBar />
     <div className="text-pretty px-80 text-xl">
       <span className="tracking-wide leading-relaxed text-justify">
         <p className="pb-5 text-center">🚀 Welcome to my digital space! I'm whzd (whizard, the H is silent).</p>
