@@ -7,11 +7,17 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    colors: {
-      'home-base1': '#222831',
-      'home-base2': '#393E46',
-      'home-hl1': '#00ADB5',
-      'home-hl2': '#EEEEEE',
+    extend:{
+      colors: {
+        'home-base1': '#222831',
+        'home-base2': '#393E46',
+        'home-hl1': '#00ADB5',
+        'home-hl2': '#EEEEEE',
+        'blog-base1': '#243763',
+        'blog-base2': '#FF6E31',
+        'blog-hl1': '#FFEBB7',
+        'blog-hl2': '#AD8E70',
+      },
     }
   },
   plugins: [],

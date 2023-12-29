@@ -4,9 +4,14 @@ export default function Home() {
 return (
   <div>
     <nav className="flex flex-row justify-items-center drop-shadow-md text-center h-32">
-      <NavItem path="/blog" displayText="Blog" className="w-1/4 bg-home-base2 w-64"/>
-      <p className="grow">Home</p>
-      <NavItem path="/projects" displayText="Projects" className="w-1/4 bg-home-base2 w-64"/>
+      <div className="flex flex-col w-64 p-2 bg-home-base2">
+        <div className="bg-blog-base1 flex-auto"/>
+        <NavItem path="/blog" displayText="Blog" className=" bg-blog-base2 text-black text-3xl z-10"/>
+        <div className="bg-blog-hl1 flex-auto"/>
+        <div className="bg-blog-hl2 flex-auto"/>
+      </div>
+      <div className="grow" />
+      <NavItem path="/projects" displayText="Projects" className=" bg-home-base2 w-64"/>
     </nav>
     <div className="h-dvh pt-16">
       <div className="flex px-80 drop-shadow-md max-h-80">
