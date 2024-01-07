@@ -13,7 +13,7 @@ export default function Blog() {
             </svg>
           </div>
         </Link>
-        <p className="text-7xl grow text-blog-hl2">Blog</p>
+        <p className="text-7xl grow text-blog-hl1">Blog</p>
         <Link href="/" className=" bg-home-base1 w-64 rounded-bl-lg">
           <div className="bg-home-base2 rounded-lg mx-10 mt-1">
             <p className="text-2xl text-home-hl1" >Home</p>

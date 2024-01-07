@@ -16,11 +16,11 @@ export default function Projects() {
             </svg>
           </div>
         </Link>
-        <p className="text-7xl grow text-projects-hl2">Projects</p>
+        <p className="text-7xl grow text-projects-hl1">Projects</p>
         <Link href="/blog" className="bg-blog-base1 w-64 rounded-bl-lg">
           <div className="bg-blog-base2 rounded-lg mx-10 mt-1">
-            <p className="text-2xl text-blog-hl2" >Blog</p>
-            <svg width="215" height="40" viewBox="13 0 24 24" className="fill-blog-hl1">
+            <p className="text-2xl text-blog-hl1" >Blog</p>
+            <svg width="215" height="40" viewBox="13 0 24 24" className="fill-blog-hl2">
               <path
                 fill-rule="evenodd"
                 clip-rule="evenodd"

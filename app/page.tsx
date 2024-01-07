@@ -7,8 +7,8 @@ export default function Home() {
       <nav className="flex flex-row justify-items-center drop-shadow-md text-center h-32">
         <Link href="/blog" className="bg-blog-base1 w-64 rounded-br-lg">
           <div className="bg-blog-base2 rounded-lg mx-10 mt-1">
-            <p className="text-2xl text-blog-hl2" >Blog</p>
-            <svg width="215" height="88" viewBox="7 0 24 24" className="fill-blog-hl1">
+            <p className="text-2xl text-blog-hl1" >Blog</p>
+            <svg width="215" height="88" viewBox="7 0 24 24" className="fill-blog-hl2">
               <path
                 fill-rule="evenodd"
                 clip-rule="evenodd"
